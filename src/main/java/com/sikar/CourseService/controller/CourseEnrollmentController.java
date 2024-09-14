@@ -11,10 +11,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 public class CourseEnrollmentController {
-    // path paremeter -> to identify your resource
-//    query param -> filter your resource
-    // CRUD
-//    List<Course> studentList = new ArrayList<>();
+
     @Autowired
     CourseEnrollmentService courseEnrollmentService;
 
